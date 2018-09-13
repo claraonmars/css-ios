@@ -1,0 +1,74 @@
+body{
+font-family: sans-serif;
+}
+
+.frame{
+	background-image: url("Frame/DeviceFrame.jpg");
+	background-repeat:no-repeat;
+	width:345px;
+	height:700px;
+	background-size: contain;
+}
+
+.screen{
+	position: relative;
+	top:81px;
+	left:22px;
+	background-image: url("Wallpaper/Default.jpg");
+	background-repeat:no-repeat;
+	background-size: auto;
+	width:301px;
+	height:532px;
+}
+
+.header{
+	width:301px;
+	height:20px;
+	color:white;
+}
+
+.headerIcon{
+	display:inline-block;
+	width:100px;
+	margin:0;
+	float: left;
+}
+
+#time{
+text-align: center;
+}
+
+#battery{
+	text-align:right;
+}
+
+.rows{
+	width:301px;
+	height:70px;
+}
+
+.iconscreen{
+	margin-top:21px;
+}
+
+.icons{
+	padding: 0 22px 0 22px;
+}
+
+.indIcon{
+	display: inline-block;
+	width:50px;
+	height:50px;
+	margin: 10px 5px;
+}
+
+.indIcon img{
+	border-radius: 5px;
+	width:100%;
+}
+
+.bottom-row{
+	position:relative;
+	top:70px;
+	background-color: white;
+}
